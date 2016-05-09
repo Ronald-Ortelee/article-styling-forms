@@ -738,3 +738,19 @@ Gravity Forms
 	color: #cc0000;
 	opacity: 0.7;
 }
+
+/* Gravity Forms Hidden
+--------------------------------------------- */
+.gform_wrapper .hidden_label .gfield_label {
+	clip: rect(1px, 1px, 1px, 1px);
+	height: 1px;
+	overflow: hidden;
+	position: absolute;
+	width: 1px;
+}
+
+.gform_wrapper .gform_validation_container {
+	display: none;
+	position: absolute;
+	left: -9000px;
+}
