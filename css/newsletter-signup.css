@@ -1,5 +1,9 @@
 /* Newsletter
 ----------------------------------------------------------------------------- */
+.content {
+	background: #67c2d4;
+}
+
 .newsletter-signup_wrapper {
 	background-color: #fff;
 	color: #d5bba4;
