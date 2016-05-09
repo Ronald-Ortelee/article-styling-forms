@@ -71,6 +71,10 @@ Gravity Forms
 	width: 100%;
 }
 
+.gform_wrapper .gform_footer {
+	margin-top: 16px;
+}
+
 /* Gravity Forms Progress Bar
 --------------------------------------------- */
 .gform_wrapper .gf_progressbar_wrapper {
