@@ -2,6 +2,11 @@
 ----------------------------------------------------------------------------- */
 .content {
 	background: #67c2d4;
+	padding: 20px;
+}
+
+.form-content {
+	padding: 20px;
 }
 
 .newsletter-signup_wrapper {
