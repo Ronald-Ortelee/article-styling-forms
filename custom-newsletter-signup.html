@@ -28,52 +28,36 @@
 			<p>
 				This is a sample of a Gravity Forms form with the custom Gravity Forms styles loaded. You can read about it by reading the article <a href="http://www.wpsitecare.com/ultimate-guide-styling-forms">The Ultimate Guide to Styling Forms</a>.
 			<h1>Gravity Form Inputs Using Custom Gravity Forms Styles</h1>
-			<div class="gform_wrapper" id="gform_wrapper_2">
-				<form method="post" enctype="multipart/form-data" id="gform_2" action="/newsletter-signup/">
-					<div class="gform_heading">
-						<h3 class="gform_title">Newsletter SignUp</h3>
-					</div>
-					<div class="gform_body">
-						<ul id="gform_fields_2" class="gform_fields top_label form_sublabel_below description_below">
-							<li id="field_2_1" class="gfield gfield_contains_required field_sublabel_below field_description_below">
-								<label class="gfield_label" for="input_2_1_3">Name<span class="gfield_required">*</span></label>
-								<div class="ginput_complex ginput_container no_prefix has_first_name no_middle_name has_last_name no_suffix gf_name_has_2 ginput_container_name" id="input_2_1"> <span id="input_2_1_3_container" class="name_first">
-									<input name="input_1.3" id="input_2_1_3" value="" aria-label="First name" tabindex="2" type="text">
-									<label for="input_2_1_3">First</label>
-									</span> <span id="input_2_1_6_container" class="name_last">
-									<input name="input_1.6" id="input_2_1_6" value="" aria-label="Last name" tabindex="4" type="text">
-									<label for="input_2_1_6">Last</label>
-									</span> </div>
-							</li>
-							<li id="field_2_2" class="gfield gfield_contains_required field_sublabel_below field_description_below">
-								<label class="gfield_label" for="input_2_2">Email<span class="gfield_required">*</span></label>
-								<div class="ginput_container ginput_container_email">
-									<input name="input_2" id="input_2_2" value="" class="large" tabindex="6" type="email">
-								</div>
-							</li>
-							<li id="field_2_3" class="gfield gform_validation_container field_sublabel_below field_description_below">
-								<label class="gfield_label" for="input_2_3">Phone</label>
-								<div class="ginput_container">
-									<input name="input_3" id="input_2_3" value="" autocomplete="off" type="text">
-								</div>
-								<div class="gfield_description">This field is for validation purposes and should be left unchanged.</div>
-							</li>
-						</ul>
-					</div>
-					<div class="gform_footer top_label">
-						<input id="gform_submit_button_2" class="gform_button button" value="Submit" tabindex="7" onclick="if(window[&quot;gf_submitting_2&quot;]){return false;}  if( !jQuery(&quot;#gform_2&quot;)[0].checkValidity || jQuery(&quot;#gform_2&quot;)[0].checkValidity()){window[&quot;gf_submitting_2&quot;]=true;}  " type="submit">
-						<input class="gform_hidden" name="is_submit_2" value="1" type="hidden">
-						<input class="gform_hidden" name="gform_submit" value="2" type="hidden">
-						<input class="gform_hidden" name="gform_unique_id" value="" type="hidden">
-						<input class="gform_hidden" name="state_2" value="WyJbXSIsIjYzZDZlYTc4ZTJkNjI2ZjFmYWIxYjVkOGYwY2JjYjljIl0=" type="hidden">
-						<input class="gform_hidden" name="gform_target_page_number_2" id="gform_target_page_number_2" value="0" type="hidden">
-						<input class="gform_hidden" name="gform_source_page_number_2" id="gform_source_page_number_2" value="1" type="hidden">
-						<input name="gform_field_values" value="" type="hidden">
-					</div>
-				</form>
+			<div class="form-content">
+				<div class="gform_wrapper newsletter-signup_wrapper" id="gform_wrapper_2">
+					<form id="gform_2" class="newsletter-signup">
+						<div class="gform_heading">
+							<h3 class="gform_title">Newsletter SignUp</h3>
+						</div>
+						<div class="gform_body">
+							<ul id="gform_fields_2" class="gform_fields top_label form_sublabel_below description_below">
+								<li id="field_2_2" class="gfield field_sublabel_below field_description_below">
+									<label class="gfield_label" for="input_2_2">Your Email Address</label>
+									<div class="ginput_container ginput_container_email">
+										<input name="input_2" id="input_2_2" value="" class="large" tabindex="1" type="email">
+									</div>
+									<div class="gfield_description">We promise, we won't send you any spam. Just love.</div>
+								</li>
+								<li id="field_2_3" class="gfield gform_validation_container field_sublabel_below field_description_below">
+									<label class="gfield_label" for="input_2_3">Email</label>
+									<div class="ginput_container">
+										<input name="input_3" id="input_2_3" value="" autocomplete="off" type="text">
+									</div>
+									<div class="gfield_description">This field is for validation purposes and should be left unchanged.</div>
+								</li>
+							</ul>
+						</div>
+						<div class="gform_footer top_label">
+							<input id="gform_submit_button_2" class="gform_button button" value="Submit" tabindex="2" type="Submit">
+						</div>
+					</form>
+				</div>
 			</div>
-			<script type="text/javascript"> jQuery(document).bind('gform_post_render', function(event, formId, currentPage){if(formId == 2) {} } );jQuery(document).bind('gform_post_conditional_logic', function(event, formId, fields, isInit){} );</script>
-			<script type="text/javascript"> jQuery(document).ready(function(){jQuery(document).trigger('gform_post_render', [2, 1]) } ); </script>
 		</main>
 	</div>
 	<footer id="site-footer" class="site-footer">
@@ -81,5 +65,6 @@
 			<p class="credit">Copyright &#169; 2016 <a href="http://www.wpsitecare.com">WP Site Care</a></p>
 		</div>
 	</footer>
+	<script type="text/javascript" src="js/newsletter-js.js"></script>
 </body>
 </html>
