@@ -1,12 +1,17 @@
 /* Newsletter
 ----------------------------------------------------------------------------- */
-.content {
+.newsletter-form-page {
 	background: #67c2d4;
-	padding: 20px;
+	color: #fff;
 }
 
-.form-content {
-	padding: 20px;
+.newsletter-form-page h1 {
+	color: #fff;
+}
+
+.newsletter-form-page .site-footer {
+	background: transparent;
+	color: #fff;
 }
 
 .newsletter-signup_wrapper {
