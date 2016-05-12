@@ -1,6 +1,6 @@
 # Ultimate Guide to Styling Forms
 
-You can read the [Ultimate Guide to Styling Forms](http://www.wpsitecare.com/ultimate-guide-styling-forms)  
+You can read the [Ultimate Guide to Styling Forms](http://www.wpsitecare.com/css-form-styling)  
 
 __License:__ [MIT](https://github.com/wpsitecare/article-styling-forms/blob/master/LICENSE)
 
